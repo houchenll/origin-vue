@@ -1,18 +1,21 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
+  <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
 <!--  <HelloWorld msg="Welcome to Your Vue.js App"/>-->
-  <ScopeParent/>
+  <!-- <ScopeParent/> -->
+  <ParentNode/>
 </template>
 
 <script>
 // import HelloWorld from './components/HelloWorld.vue'
-import ScopeParent from "@/components/scope/ScopeParent";
+// import ScopeParent from "@/components/scope/ScopeParent";
+import ParentNode from "./components/array/ParentNode.vue";
 
 export default {
   name: 'App',
   components: {
     // HelloWorld,
-    ScopeParent,
+    // ScopeParent,
+    ParentNode,
   }
 }
 </script>
